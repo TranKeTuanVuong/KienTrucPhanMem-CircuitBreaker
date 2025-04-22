@@ -1,0 +1,32 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+
+  productservice:
+    build: ./ProductService
+    ports:
+      - '4999:4999'
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/MS
+
+  orderservice:
+    build: ./OrderService
+    ports:
+      - '4998:4998'
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/MS
+
+  customerservice:
+    build: ./CustomerService
+    ports:
+      - '4997:4997'
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/MS

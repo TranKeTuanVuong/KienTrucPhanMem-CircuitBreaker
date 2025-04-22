@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "P001",
+    "name": "iPhone 15 Pro",
+    "price": 999,
+    "description": "iPhone 15 Pro với chip A17, camera siêu nét.",
+    "stock": 10,
+    "category": "Điện thoại"
+  },
+  {
+    "productId": "P002",
+    "name": "Samsung Galaxy S24",
+    "price": 899,
+    "description": "Samsung S24 với màn hình Dynamic AMOLED.",
+    "stock": 15,
+    "category": "Điện thoại"
+  },
+  {
+    "productId": "P003",
+    "name": "Laptop Dell XPS 15",
+    "price": 1500,
+    "description": "Laptop mỏng nhẹ, hiệu năng cao.",
+    "stock": 5,
+    "category": "Laptop"
+  }
+]

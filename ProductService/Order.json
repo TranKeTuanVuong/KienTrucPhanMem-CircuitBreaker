@@ -1,0 +1,16 @@
+{
+  "orderId": "ORD123456",
+  "products": [
+    {
+      "productId": "P001",
+      "quantity": 2
+    },
+    {
+      "productId": "P002",
+      "quantity": 1
+    }
+  ],
+  "totalAmount": 149.99,
+  "status": "pending",
+  "createdAt": { "$date": "2025-04-08T10:30:00Z" }
+}
